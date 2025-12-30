@@ -1,0 +1,5 @@
+Case1.zip filter=lfs diff=lfs merge=lfs -text
+Case2.zip filter=lfs diff=lfs merge=lfs -text
+Case3.zip filter=lfs diff=lfs merge=lfs -text
+Case4.zip filter=lfs diff=lfs merge=lfs -text
+Case5.zip filter=lfs diff=lfs merge=lfs -text
