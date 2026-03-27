@@ -2,8 +2,11 @@
 ---
 
 > This repository contains the benchmark cases from the **2025 Timing-Driven Partition Contest** hosted by **Shanghai Fudan Microelectronics Group**.
-
- **Original Contest Problem Description:** [04_FPGA赛道赛题一.pdf](http://fuweibei.com/static/img/2025pdf/04_FPGA赛道赛题一.pdf)
+> 
+> 📌 **Contest Specifications:**
+> As the original official contest website link is currently inactive, we have provided the original problem description along with an English translation (via DeepL) directly in this repository for the convenience of reviewers and researchers:
+> * 🇺🇸 **English Translation:** [`Timing-Driven_Partitioning_Contest_for_Multi-Die_FPGAs_EN.pdf`](./Timing-Driven_Partitioning_Contest_for_Multi-Die_FPGAs_EN.pdf)
+> * 🇨🇳 **Original Chinese Spec:** [`04_第七届复微杯竞赛题目_FPGA赛道赛题一.pdf`](./04_第七届复微杯竞赛题目_FPGA赛道赛题一.pdf)
 
 #### Benchmark Statistics
 
@@ -78,9 +81,12 @@ $$ \text{Fixed Delay} = \text{Base Delay} + \text{Fanout Based Delay} $$
 
 ---
 
-
-
-> 本仓库的case来自上海复旦微公司举办的2025 Timing-Driven Partition Contest（[04_FPGA赛道赛题一.pdf](http://fuweibei.com/static/img/2025pdf/04_FPGA赛道赛题一.pdf)）
+> 本仓库包含上海复旦微电子集团举办的 **2025 Timing-Driven Partition Contest** 的 Benchmark 数据。
+>
+> 📌 **赛题说明文件：**
+> 由于官方赛事链接已失效，为方便审稿人及研究者查阅，我们在此直接提供了官方原版赛题说明文件以及对应的英文翻译版（由 DeepL 翻译）：
+> * 🇨🇳 **官方中文原版:** [`04_第七届复微杯竞赛题目_FPGA赛道赛题一.pdf`](./04_第七届复微杯竞赛题目_FPGA赛道赛题一.pdf)
+> * 🇺🇸 **英文翻译版:** [`Timing-Driven_Partitioning_Contest_for_Multi-Die_FPGAs_EN.pdf`](./Timing-Driven_Partitioning_Contest_for_Multi-Die_FPGAs_EN.pdf)
 
 #### Benchmark规模信息
 
@@ -105,8 +111,8 @@ Casex.zip:
   |--caseName.xdc
 ```
 
-+ `caseName.edif`为网表文件，可以在Vivado中`read_edif path_to_edif.edif` 以及`link_design`打开网表
-+ `caseName.edif`为资源约束文件，其中指定了需要划分的SLR个数以及每个SLR内资源容量约束
++ `caseName.edif` 为网表文件，可以在 Vivado 中使用 `read_edif path_to_edif.edif` 以及 `link_design` 命令打开网表。
++ `caseName.xml` 为资源约束文件，其中指定了需要划分的 SLR 个数以及每个 SLR 内资源容量约束。
 
 提供了`hdl.lib`文件，指定了每种Cell的时序信息
 
