@@ -5,7 +5,7 @@
 > 
 > 📌 **Contest Specifications:**
 > As the original official contest website link is currently inactive, we have provided the original problem description along with an English translation (via DeepL) directly in this repository for the convenience of reviewers and researchers:
-> * 🇺🇸 **English Translation:** [`Timing-Driven_Partitioning_Contest_for_Multi-Die_FPGAs_EN.pdf`](./Timing-Driven_Partitioning_Contest_for_Multi-Die_FPGAs_EN.pdf)
+> * 🇺🇸 **English Translation:** [`Timing-Driven_Partitioning_Contest_for_Multi-Die_FPGAs_EN.pdf`](./Timing-Driven_Partitioning_Contest_for_Multi-Die_FPGAs_(en-US).pdf)
 > * 🇨🇳 **Original Chinese Spec:** [`04_第七届复微杯竞赛题目_FPGA赛道赛题一.pdf`](./04_第七届复微杯竞赛题目_FPGA赛道赛题一.pdf)
 
 #### Benchmark Statistics
